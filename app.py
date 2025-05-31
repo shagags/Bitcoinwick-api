@@ -10,7 +10,7 @@ def root():
     return {"status": "btcw-api live"}
 
 # 3) Configuration for Binance REST k-line endpoint
-SOURCE_URL = "https://data.binance.com/api/v3/klines"   # Must include symbol & interval as params
+SOURCE_URL = "https://data-api.binance.vision/api/v3/klines"   # Must include symbol & interval as params
 SYMBOL     = "BTCUSDT"                                 # BTC/USD (in USDT) on Binance
 EMA_SPAN   = 50                                        # 50-period EMA
 SL_USD     = 50                                        # $50 stop on BTC per trade

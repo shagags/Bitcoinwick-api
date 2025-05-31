@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 import requests, pandas as pd, datetime as dt, os
 
+python<br>@app.get("/")<br>def root():<br> return {"status": "btcw-api live"}<br>
 # ---------------------------------------------------------------------
 # 1. CONFIG
 # ---------------------------------------------------------------------
